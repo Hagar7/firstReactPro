@@ -1,0 +1,193 @@
+.porto {
+    min-height: 100vh;
+    padding-top: 60px;
+    text-align: center;
+}
+.porto h2{
+    color: #333;
+    padding-top: 20px;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+}
+
+.porto span{
+    padding-top: 15px; 
+    position: relative;
+}
+.porto span::before{
+    background-color: #333;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(-139px,24px);
+    -webkit-transform: translate(-139px,24px);
+    -moz-transform: translate(-139px,24px);
+    -ms-transform: translate(-139px,24px);
+    -o-transform: translate(-139px,24px);
+} 
+.porto span::after{
+    background-color: #333;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(12px,24px);
+    -webkit-transform: translate(12px,24px);
+    -moz-transform: translate(12px,24px);
+    -ms-transform: translate(12px,24px);
+    -o-transform: translate(12px,24px);
+} 
+  
+
+.porto i {
+    color: #333;
+    font-size: 30px;  
+}
+.porto .item {
+   
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+   
+
+}
+
+.porto .item img{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.overlay{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: rgb(26, 188, 156,0.9);
+    position: absolute;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:1s all ;
+    -webkit-transition:1s all ;
+    -moz-transition:1s all ;
+    -ms-transition:1s all ;
+    -o-transition:1s all ;
+}
+.overlay i {
+    color: #eee;
+    font-size: 70px;
+}
+.porto .item:hover .overlay{
+opacity: 1;
+}
+.hmodaal{
+    padding-top: 60px;
+    --bs-modal-width: 70% !important;
+    text-align: center;
+}
+.myModal {
+    text-align: center !important;
+    font-size: 50px !important;
+}
+.mymodalHead{
+    --bs-modal-header-border-color: transparent !important;
+}
+
+.hmodaal span{
+    padding-top: 15px; 
+    position: relative;
+}
+
+.hmodaal span::before{
+    background-color: #333;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(-129px,27px);
+    -webkit-transform: translate(-129px,27px);
+    -moz-transform: translate(-129px,27px);
+    -ms-transform: translate(-129px,27px);
+    -o-transform: translate(-129px,27px);
+} 
+.hmodaal span::after{
+    background-color: #333;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(8px,27px);
+    -webkit-transform: translate(8px,27px);
+    -moz-transform: translate(8px,27px);
+    -ms-transform: translate(8px,27px);
+    -o-transform: translate(8px,27px);
+} 
+  
+
+.hmodaal i {
+    color: #333;
+    font-size: 30px;  
+}
+
+.mymodlFotter{
+   margin: auto !important;
+   --bs-modal-footer-border-color:transperent !important;
+}
+.mymodlFotter i {
+    color: #eee;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.hmodaal p{
+    margin: auto;
+    width: 80%;
+}
+.myBtn {
+    background-color: #1abc9c !important;
+    border: 1px solid #1abc9c !important;
+    padding:15px 30px !important;
+}
+@media screen and (max-width:767px){
+    .porto h2{
+        font-size: 25px;  
+        padding-top: 30px;
+    }
+    .porto span::before{
+        width: 80px;
+        transform: translate(-91px,24px);
+        -webkit-transform: translate(-91px,24px);
+        -moz-transform: translate(-91px,24px);
+        -ms-transform: translate(-91px,24px);
+        -o-transform: translate(-91px,24px);
+}
+.porto span::after{
+width: 80px;  
+}
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+}

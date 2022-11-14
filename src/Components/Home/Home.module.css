@@ -1,0 +1,106 @@
+.home{
+    
+    background-color: #1abc9c;
+    min-height: 70vh;
+}
+.info{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info img{
+width: 20%;
+}
+.info h1{
+    color: #eee;
+    padding-top: 20px;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+.info span{
+    padding-top: 15px; 
+    position: relative;
+}
+.info span::before{
+    background-color: #eee;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(-139px,24px);
+    -webkit-transform: translate(-139px,24px);
+    -moz-transform: translate(-139px,24px);
+    -ms-transform: translate(-139px,24px);
+    -o-transform: translate(-139px,24px);
+} 
+.info span::after{
+    background-color: #eee;
+    height: 3px;
+    width: 120px;
+    bottom: 0;
+    top:0;
+    content: "";
+    position: absolute;
+    transform: translate(12px,24px);
+    -webkit-transform: translate(12px,24px);
+    -moz-transform: translate(12px,24px);
+    -ms-transform: translate(12px,24px);
+    -o-transform: translate(12px,24px);
+} 
+  
+
+.info i {
+    color: #eee;
+    font-size: 30px;  
+}
+.info p {
+    padding-top: 20px;
+    color: #eee;
+    font-size: 20px;
+}
+
+@media screen and (max-width:767px){
+    .info img{
+        width: 60%;
+        }
+        .info h1{
+            font-size: 25px;  
+            padding-top: 30px;
+        }
+        .info span::before{
+            width: 80px;
+            transform: translate(-91px,24px);
+            -webkit-transform: translate(-91px,24px);
+            -moz-transform: translate(-91px,24px);
+            -ms-transform: translate(-91px,24px);
+            -o-transform: translate(-91px,24px);
+}
+.info span::after{
+    width: 80px;  
+}
+.info p {
+    padding-top: 25px;
+    text-align: center;
+}
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .info img{
+        width: 60%;
+        }
+        .info h1{ 
+            padding-top: 30px;
+        }
+        .info p {
+            padding-top: 30px;
+            text-align: center;
+            font-size: 30px;
+        }
+}

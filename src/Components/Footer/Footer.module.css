@@ -1,0 +1,60 @@
+footer{
+    background-color: #2C3E50;
+    padding: 50px 0 30px;
+    color: #eee;
+    text-align: center;
+}
+.item{
+   margin: 10px 20px ;
+}
+.item h3{
+    padding-bottom: 15px;
+   
+}
+.item p {
+    font-size: 20px;
+
+  
+}
+.item .links span{
+margin: 10px 10px;
+
+}
+.item .links span i {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+    transition:0.5s all ;
+    -webkit-transition:0.5s all ;
+    -moz-transition:0.5s all ;
+    -ms-transition:0.5s all ;
+    -o-transition:0.5s all ;
+    padding: 10px;
+}
+.item .links span i:hover{
+    background-color: #eee;
+    color: #2C3E50;
+}
+
+.copy {
+    background-color: #1a252f;
+    padding: 15px 0 10px;
+    margin: auto;
+}
+.copy p {
+    color: #eee;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width:767px){
+    .item{
+        margin-bottom: 20px;
+    }
+}

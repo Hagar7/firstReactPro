@@ -1,0 +1,44 @@
+.test{
+    background-color: #2C3E50 !important;
+   
+   
+}
+.whiteColor{
+    color:#fff !important;
+    font-size: 20px !important;
+
+   
+}
+.uniColor{
+    background-color: #1abc9c;
+    color:#fff !important;
+    font-size: 20px !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.space{
+    color:#fff !important;
+    letter-spacing: 0.7px !important;
+    font-size: 25px !important;
+    font-weight: 700;
+}
+.toggle{
+    background-color: #1abc9c !important;
+    border: 1px solid yellow !important;
+    font-size: 14px !important;
+   color: #fff !important;
+   font-weight: bold;
+   line-height: 2 !important;
+}
+.toggle:focus{
+    border:2px solid yellow !important ;
+    box-shadow:0 0 0 transparent !important;
+}
+.myIcon{
+    color: #fff !important;
+    font-size: 11px !important;
+    margin-left: 5px;
+}
